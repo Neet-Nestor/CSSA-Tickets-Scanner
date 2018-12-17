@@ -1,0 +1,6 @@
+platform :ios, '11.2'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'QRCodeReader' do
+	use_frameworks!
+	pod 'SwiftHTTP', '~> 3.0.1'
+end
