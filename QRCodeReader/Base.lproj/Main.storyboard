@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNextCondensed.ttc">
-            <string>AvenirNextCondensed-Medium</string>
-            <string>AvenirNextCondensed-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Code View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -98,7 +92,7 @@
                                     <constraint firstAttribute="height" constant="50" id="Hdi-PS-7iG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="卖票用，不要点">
+                                <state key="normal" title="出 售 门 票">
                                     <color key="titleColor" red="0.96287637948989868" green="0.81988173723220825" blue="0.45080119371414185" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -112,7 +106,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="AlP-Is-rfb">
-                                <rect key="frame" x="40" y="128" width="295" height="221"/>
+                                <rect key="frame" x="40" y="128" width="295" height="221.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AlP-Is-rfb" secondAttribute="height" multiplier="4:3" id="BKa-rH-bbq"/>
                                 </constraints>
@@ -431,37 +425,37 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. 卖票时，在主选单选择“激活门票”选项，扫描票上的二维码进行操作。门票只有在激活后才有效。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvV-UP-UKG">
-                                        <rect key="frame" x="10" y="30" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="30" width="355" height="70"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202325820923" green="0.81595337390899658" blue="0.44687914848327637" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Check-in时，在主选单选择“Check-in”选项，扫描票上的二维码进行操作。门票在Checkin之后会变为无效状态。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lq8-an-YCP">
-                                        <rect key="frame" x="10" y="83.5" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="130" width="355" height="70"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202330000002" green="0.8159533739" blue="0.44687914849999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5. 若提示密匙错误，请在群里联系楼宇，使用“更改密匙”选项输入最新密匙。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PB-vc-iur">
-                                        <rect key="frame" x="10" y="244" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="406.5" width="355" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202330000002" green="0.8159533739" blue="0.44687914849999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Check-in功能暂时禁用，所以现在在Check-in选单扫描二维码是没用的∠( ᐛ 」∠)_" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wG8-xl-33T">
-                                        <rect key="frame" x="10" y="137" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="230" width="355" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202330000002" green="0.8159533739" blue="0.44687914849999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6. 若有其他问题请截图错误提示，联系Neet解决" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKE-N7-2qA">
-                                        <rect key="frame" x="10" y="297.5" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="483" width="355" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202330000002" green="0.8159533739" blue="0.44687914849999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. 当二维码扫描不出来时，可以使用扫描窗口右上角的手动输入按钮输入票的票号（例子：CSSAFORV）" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcp-Xd-G2B">
-                                        <rect key="frame" x="10" y="190.5" width="355" height="23.5"/>
+                                        <rect key="frame" x="10" y="306.5" width="355" height="70"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" red="0.95896202330000002" green="0.8159533739" blue="0.44687914849999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -688,8 +682,8 @@
     </scenes>
     <resources>
         <image name="cross" width="40" height="40"/>
-        <image name="cross2" width="36" height="36"/>
-        <image name="cssaLogo" width="150" height="150"/>
-        <image name="dog" width="600" height="450"/>
+        <image name="cross2" width="72" height="72"/>
+        <image name="cssaLogo" width="300" height="300"/>
+        <image name="dog" width="1200" height="900"/>
     </resources>
 </document>
